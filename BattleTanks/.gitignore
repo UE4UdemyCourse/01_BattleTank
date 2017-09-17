@@ -4,6 +4,11 @@
 # Visual Studio 2015 database file
 *.VC.db
 
+# Starter Content
+BuildingEscape/Content/StarterContent
+BuildingEscape/Content/StarterContent/Textures
+BuildingEscape/Content/StarterContent/HDRI
+
 # Compiled Object files
 *.slo
 *.lo
