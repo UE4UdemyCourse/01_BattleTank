@@ -15,8 +15,11 @@ class BATTLETANKS_API ATankAIController : public AAIController
 {
 	GENERATED_BODY()
 	
+private:
 	virtual void BeginPlay();
 
 	ATank* GetControlledTank() const;
+
+	ATank* GetPlayerTank() const;
 	
 };
